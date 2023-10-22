@@ -58,6 +58,6 @@ State hasbeentriggered
   EndEvent
 
   Event OnUnload()
-    Self.gotostate("WaitingForPlayer")
+    ; Self.gotostate("WaitingForPlayer")
   EndEvent
 EndState
